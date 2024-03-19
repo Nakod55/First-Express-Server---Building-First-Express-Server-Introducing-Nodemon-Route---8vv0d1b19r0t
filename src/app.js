@@ -7,4 +7,5 @@ app.get('/', (req, res) => {
 });
 
 //Using app.listen create your first express server on port 3000
+app.listen(3000, () => console.log("Server is running at server 3000"));
 module.exports = app;
